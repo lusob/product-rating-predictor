@@ -29,7 +29,7 @@ In the top-level directory:
 
 ### To test it:
 
-    $ curl  -u user1:pass1 --data "product_text='the tshirt is really confortable'"  http://localhost:5000/predict
+    $ curl -u user1:pass1 --data "product_text='the tshirt is really confortable'"  http://localhost:5000/predict
 
     $ curl -u user1:pass1 --data "product_text='the tshirt is really not confortable'"  http://localhost:5000/predict
 
